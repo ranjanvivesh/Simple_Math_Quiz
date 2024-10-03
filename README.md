@@ -23,6 +23,7 @@ Here we have Ten questions which appear and we have to answer them and it shows 
 1.Make sure you have Go installed on your machine.
 
 2.Clone this repository to your local machine:
+
      ->git clone https://github.com/your-username/math-quiz-game.git
      ->cd math-quiz-game
      
@@ -31,6 +32,7 @@ Here we have Ten questions which appear and we have to answer them and it shows 
      
 # Usage 
 -To run the Math Quiz Game, use the following command:
+
      ->./quiz -csv=problems.csv
      
 This command will read the quiz questions from problems.csv and start the game.     
