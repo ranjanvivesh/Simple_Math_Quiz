@@ -7,12 +7,12 @@ Here we have Ten questions which appear and we have to answer them and it shows 
 -CSV File Format
 -Contributing
 
-#Features
+# Features
 -Command-line tool for taking a math quiz.
 -Automatically reads a list of questions and answers from a CSV file.
 -Keeps track of the score and provides a result after the quiz.
 
-#Installation
+# Installation
 1.Make sure you have Go installed on your machine.
 2.Clone this repository to your local machine:
      ->git clone https://github.com/your-username/math-quiz-game.git
@@ -20,12 +20,12 @@ Here we have Ten questions which appear and we have to answer them and it shows 
 3.Build the executable:
      ->go build -o quiz main.go
      
-#Usage 
+# Usage 
 -To run the Math Quiz Game, use the following command:
      ->./quiz -csv=problems.csv
 This command will read the quiz questions from problems.csv and start the game.     
 
-#CSV File Format
+# CSV File Format
 The CSV file should contain questions and answers in two columns, separated by a comma. The first column is the question, and the second is the correct answer.
 
 Example problems.csv:
@@ -34,5 +34,5 @@ Example problems.csv:
 12/3,4
 9*9,81
 
-#Contributing
+# Contributing
 Contributions are welcome! If you find bugs or have suggestions for improvement, feel free to open an issue or submit a pull request.
